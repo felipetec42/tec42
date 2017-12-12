@@ -2013,7 +2013,20 @@ a.btn:focus{
 	.intro-content{
 		padding-top: 250px;
 	}
-	
+	.home-section{
+		padding-top: 240px;
+	}
+
+	.cbp .cbp-item {
+    	width: 50%; /* default width for blocks */
+    	height: 420px; /* default height for blocks */
+	}
+	.cbp-item-wrapper{
+		height: 135px;
+	}
+	.cbp-l-grid-team{
+		height: 1140px !important
+	}
 	.boxes3 {
 	width: 100%;
 	}
