@@ -2027,6 +2027,9 @@ a.btn:focus{
 	.cbp-l-grid-team{
 		height: 1140px !important
 	}
+	.contato-intro{
+		height: auto;
+	}
 	.boxes3 {
 	width: 100%;
 	}
