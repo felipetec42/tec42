@@ -1978,7 +1978,10 @@ a.btn:focus{
 }
 
 @media (max-width:767px) {
-
+	.top-area{
+		padding-top: 10px;
+	    padding-bottom: 5px;
+	}
 	.top-area p {
 		text-align: center;
 		font-size: 14px;
@@ -2006,7 +2009,10 @@ a.btn:focus{
 	.navbar-brand img{
 		max-width: 70%;
 	}
-
+	
+	.intro-content{
+		padding-top: 250px;
+	}
 	
 	.boxes3 {
 	width: 100%;
