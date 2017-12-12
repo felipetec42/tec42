@@ -1981,6 +1981,7 @@ a.btn:focus{
 
 	.top-area p {
 		text-align: center;
+		font-size: 14px;
 	}
 	
 	.navbar.navbar-custom.navbar-fixed-top {
@@ -1995,10 +1996,17 @@ a.btn:focus{
 		border-color: #ccc;
 		background-color: #eee;
 		padding: 5px 20px;
+		margin-top: 20px;
+		margin-bottom: 0;
 	}
 	.navbar-header i{
 		color: #666;
 	}
+
+	.navbar-brand img{
+		max-width: 70%;
+	}
+
 	
 	.boxes3 {
 	width: 100%;
