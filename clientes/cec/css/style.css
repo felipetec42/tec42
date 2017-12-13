@@ -254,9 +254,7 @@ Navigation
 ============= */
 
 .navbar-brand {
-  padding-top: 10px;
-  margin-top: 5px;
-  padding-bottom: 0;
+  padding-top: 7px;
 }
 
 .navbar-brand.reduce {
@@ -329,11 +327,11 @@ Navigation
 }
 
 .navbar-custom ul.nav li a {
-	font-size: 14px;
+	font-size: 16px;
 	letter-spacing: 1px;
     color: #666;
 	text-transform: uppercase;
-	font-weight: 700;
+	font-weight: 400;
 	background: transparent;
 }
 
@@ -762,6 +760,15 @@ hr.bold {
 }
 .contato-intro{
 	background: url(../img/dummy/bg2.jpg) no-repeat top center;
+	min-height: 800px;
+}
+
+.panel {
+    margin-bottom: 60px;
+}
+
+.txt-contato{
+	padding-top: 14px;
 }
 .intro-content.intro-nobg {
 	background:#fff;
@@ -829,8 +836,8 @@ p.lead-footer {
 
 .panel-skin > .panel-heading {
   color: #fff;
-  background-color: #295738;
-  border-color: #295738;
+  background-color: #52a276;
+  border-color: #52a276;
   box-shadow: none;
 }
 
@@ -946,8 +953,8 @@ Buttons
 
 .btn-lg,
 .btn-group-lg > .btn {
-  padding: 10px 16px;
-  font-size: 20px;
+  padding: 20px 46px;
+  font-size: 18px !important;
   line-height: 1.5em;
   border-radius: 6px;
 }
@@ -1315,7 +1322,7 @@ footer .widget h5 {
 
 .sub-footer {
 	margin-top: 30px;
-	background-color: #4f8a68;
+	background-color: #52a276;
 	border-top: 1px solid #ddd;
 	padding: 30px 0 10px;
 	color: #fff;
@@ -1685,17 +1692,17 @@ a.btn:focus{
 .btn-skin:active,
 .btn-skin.active {
   color: #fff;
-  background-color: #666;
-  border-color: #666;
+  background-color: #4f8a68;
+  border-color: #4f8a68;
 }
 
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #28c3ab;
+    border: 1px solid #4f8a68;
     outline: 0;
     color: #000;
-    background-color: #28c3ab;
+    background-color: #4f8a68;
 }
 
 .btn-huge {

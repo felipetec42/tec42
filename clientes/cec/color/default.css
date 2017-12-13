@@ -31,25 +31,25 @@ a:focus {
 
 /* button */
 .btn-skin {
-  background-color: #295738;
-  border-color: #295738;
+  background-color: #52a276;
+  border-color: #52a276;
 }
 
 
 /* top */
 .top-area {
-	background: #4f8a68;
+	background: #52a276;
 }
 
 /* menu */
 
 .navbar-custom ul.nav ul.dropdown-menu li a:hover {
-	color: #4f8a68;
+	color: #52a276;
 }
 .navbar-custom.top-nav-collapse .nav li a:hover,
 .navbar-custom .nav li a:hover,
 .navbar-custom .nav li.active a,.navbar-custom.top-nav-collapse .nav li.active a  {
-    color: #4f8a68;
+    color: #52a276;
 }
 
 

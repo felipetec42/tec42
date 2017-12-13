@@ -12,23 +12,23 @@
 	wow.init();
 
 	//jQuery to collapse the navbar on scroll
-	$(window).scroll(function() {
-		if ($(".navbar").offset().top > 50) {
-			$(".navbar-fixed-top").addClass("top-nav-collapse");
-			$(".top-area").addClass("top-padding");
-			$(".navbar-brand").addClass("reduce");
+	// $(window).scroll(function() {
+	// 	if ($(".navbar").offset().top > 50) {
+	// 		$(".navbar-fixed-top").addClass("top-nav-collapse");
+	// 		$(".top-area").addClass("top-padding");
+	// 		$(".navbar-brand").addClass("reduce");
 
-			$(".navbar-custom ul.nav ul.dropdown-menu").css("margin-top","11px");
+	// 		$(".navbar-custom ul.nav ul.dropdown-menu").css("margin-top","11px");
 		
-		} else {
-			$(".navbar-fixed-top").removeClass("top-nav-collapse");
-			$(".top-area").removeClass("top-padding");
-			$(".navbar-brand").removeClass("reduce");
+	// 	} else {
+	// 		$(".navbar-fixed-top").removeClass("top-nav-collapse");
+	// 		$(".top-area").removeClass("top-padding");
+	// 		$(".navbar-brand").removeClass("reduce");
 
-			$(".navbar-custom ul.nav ul.dropdown-menu").css("margin-top","16px");
+	// 		$(".navbar-custom ul.nav ul.dropdown-menu").css("margin-top","16px");
 	
-		}
-	});
+	// 	}
+	// });
 	
 	//scroll to top
 	$(window).scroll(function(){
