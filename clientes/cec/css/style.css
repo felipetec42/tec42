@@ -1033,6 +1033,62 @@ Elements
 .team-box img {
 	margin-bottom: 20px;
 }
+.card {
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 5px;
+    margin: 20px 10px;
+    padding: 0;
+    background: #fff;
+    width:30%;
+}
+.card .card-info{
+	min-height: 225px;
+}
+.card p{
+	margin-bottom: 0;
+	font-size: 15px;
+	padding: 10px;
+}
+.card h4{
+	font-size: 18px;	
+	color: #15A878;
+	font-weight: 700;
+	padding-top: 10px;
+	margin-bottom: 10px
+}
+
+.card .title {
+    color: grey;
+    font-size: 18px;
+    font-weight: 700;
+}
+.card img{
+    border-radius: 5px 5px 0 0;
+}
+.card a {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: #fff;
+    background-color: #15A878;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    text-decoration: none;
+    margin-top: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.card a:hover, a:hover {
+    background-color: #085B39;
+    color: #fff;
+}
+
+
 
 .team-box h5 {
 	font-size: 22px;
@@ -1989,6 +2045,7 @@ a.btn:focus{
 		padding-top: 10px;
 	    padding-bottom: 5px;
 	}
+	.card{width: auto;}
 	.top-area p {
 		text-align: center;
 		font-size: 14px;
