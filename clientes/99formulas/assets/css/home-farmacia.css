@@ -166,6 +166,7 @@ footer button.btn{
   #header #col-left .txt-1{
     width: auto;
     font-weight: 400;
+    padding-left: 8%;
     margin-top: 20px;
   }
   #header #col-left button{
@@ -190,6 +191,7 @@ footer button.btn{
   .features{
     padding: 10px;
     text-align: center;
+    margin-top: 30px;
   }
   .features p{
     padding: 5px;
