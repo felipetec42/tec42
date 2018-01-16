@@ -5,6 +5,7 @@
   padding-top: 80px;
   background: url(../img/foto-farmacia.png) no-repeat center bottom  #00CBE5; 
   background-size: contain;
+  position: fixed; /*evitar scroll*/
 }
 #cadastro-col-left p{
   text-align: left;
@@ -14,10 +15,12 @@
 }
 #cadastro-col-left .txt-1{
   font-size: 28px;
+  font-weight: 400;
 }
 
 #cadastro-col-right{
   color: #829DAB;
+  margin-left: 41.666667%; /*evitar scroll*/
 }
 #cadastro-col-right .nav-cadastro{
   background-color: #F5F5F5;
@@ -34,7 +37,7 @@
 #cadastro-col-right .active{
   color: #00CBE5;
   border-bottom: 2px solid #00CBE5;
-  padding-bottom: 20px;
+  padding-bottom: 23px;
   font-weight: 500;
 }
 #cadastro-col-right .txt{
@@ -45,6 +48,17 @@
 #cadastro-col-right form{
   padding-bottom: 20px;
 }
+.form-group{
+  margin-bottom: 20px;
+}
+.col-lg-6{
+  width: 220px !important; /*ajuste espacamento*/
+  flex: auto; /*ajuste espacamento*/
+}
+.col-lg-6:last-child {
+  margin-left: 20px; /*ajuste espacamento*/
+}
+
 #cadastro-col-right form label{
   margin-bottom: 0;
   font-size: 18px;
@@ -69,7 +83,7 @@
   color: #00CBE5;
   border:none;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 500;  
   display: inline-block;
 }
@@ -80,6 +94,7 @@
 #cadastro-col-right form .btn-voltar{
   color: #707070;
   font-weight: 400;
+  font-size: 20px;
 }
 #dados-empresa,
 #endereco-empresa,
@@ -112,10 +127,16 @@
     display: none;
   }
   .col-xs-6{
-    width: 50%;
+    width: 50% !important;
+  }
+  #cadastro-col-right{
+    margin-left: auto;
   }
   #cadastro-col-right form{
     padding: 10px 0 20px;
+  }
+  .col-lg-6:last-child {
+    margin-left: auto; 
   }
   #dados-empresa,
   #endereco-empresa,

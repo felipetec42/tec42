@@ -7,254 +7,162 @@
   <!-- css bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
   <!-- Google Fonts - Roboto -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700" rel="stylesheet">
   <!-- css Minha Pilula-->
   <link rel="stylesheet" href="assets\css\style-bkp.css">
-  <style>
-    #cadastro-col-left{
-      background-color: #00CBE5;
-      min-height: 100vh;
-      color: #fff;
-      text-align: center;
-      padding-top: 80px;
-    }
-    #cadastro-col-left p{
-      text-align: left;
-      padding: 0 5%;
-      font-size: 18px;
-      padding-top: 5%;
-    }
-    #cadastro-col-left .txt-1{
-      font-size: 28px;
-    }
-    #cadastro-col-left img{
-      position: absolute;
-      padding-top: 10px;
-      bottom: 0;
-      left: 5px;
-    }
-    #cadastro-col-right{
-      color: #829DAB;
-      padding-top: 10px;
-    }
-    #cadastro-col-right h2{
-      font-weight: 500;
-    }
-    #cadastro-col-right img{
-      margin: 10px 0;
-    }
-    #cadastro-col-right form{
-      width: 480px;
-      margin: 0 auto;
-      padding-top: 20px;
-      padding-bottom: 40px;
-    }
-    .form-span{
-      color: #BBBBBB
-    }
-    #cadastro-col-right form label{
-      margin-bottom: 0;
-      font-size: 18px;
-    }
-    #cadastro-col-right form .form-control{
-      height: 45px;
-      border-color:#6E8FA0;
-    }
-    #cadastro-col-right form .form-check-label{
-      padding-left: 20px;
-      font-size: 13px;
-      color: #707070;
-    }
-    #cadastro-col-right form .custom-checkbox{
-      margin-left: 5px;
-      margin-top: -15px;
-      display: block;
-      position: relative;
-      cursor: pointer;
-      -webkit-user-select: none;
-      -moz-user-select: none;
-      -ms-user-select: none;
-      user-select: none;
-    }
-    .custom-checkbox input {
-      position: absolute;
-      opacity: 0;
-      cursor: pointer;
-    }
-    .checkmark {
-      position: absolute;
-      top: 8px;
-      left: 0;
-      height: 15px;
-      width: 15px;
-      border: 2px solid #2196F3;
-      background-color: #fff;
-    }
-    /* When the checkbox is checked, add a blue background */
-    .custom-checkbox input:checked ~ .checkmark {
-      background-color: #2196F3;
-    }
+  <link rel="stylesheet" href="assets/css/home-farmacia.css">
 
-    /* Create the checkmark/indicator (hidden when not checked) */
-    .checkmark:after {
-      content: "";
-      position: absolute;
-      display: none;
-    }
-
-    /* Show the checkmark when checked */
-    .custom-checkbox input:checked ~ .checkmark:after {
-      display: block;
-    }
-
-    /* Style the checkmark/indicator */
-    .custom-checkbox .checkmark:after {
-      left: 3px;
-      top: 0px;
-      width: 5px;
-      height: 10px;
-      border: solid white;
-      border-width: 0 3px 3px 0;
-      -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-      transform: rotate(45deg);
-    }
-
-
-    #cadastro-col-right form .checks-form{
-      width: 475px;
-      padding-top: 10px;
-    }
-    #cadastro-col-right form button{
-      width: 100%;
-      border-radius: 50px;
-      margin-top: 20px;
-      background-color: #2C9DEB;
-      border:none;
-      cursor: pointer;
-      font-size: 20px;
-      font-weight: 500;  
-      height: 45px;
-    }
-    @media (max-width: 767px){
-      .hidden-mobile {
-        display: none;
-      }
-      #cadastro-col-right form{
-        padding: 0;
-        padding-top: 20px;
-        padding-bottom: 40px;
-        width: 100%;
-      }
-      #cadastro-col-right form .checks-form{
-        width: 100%;
-      }
-    }
-  </style>
+  
 </head>
 <body>
 
   <main class="container-fluid">
-    <div class="row">
-      <div class="col-md-5 hidden-mobile" id="cadastro-col-left">
-        <h1>99 Fórmulas</h1>
-        <p>
-          <span class="txt-1">Agora ficou fácil cotar sua receita médica e escollher o melhor preço.</span> <br><br>
-          Você cadastra sua receita e recebe as melhores cotações sem precisar sair de onde estiver.
+
+    <div class="row" id="header">
+      <div class="col-md-6" id="col-left">
+        <h1>O jeito fácil de promover sua farmácia e adquirir mais clientes</h1>
+        <p class="txt-1">
+          Queremos você como parceiro para entregar qualidade
         </p>
-        <img src="assets/img/foto-cadastro.png" alt="" class="img-fluid">
+        <p>
+          Comece a cotar para nossos clientes
+        </p>
+        <button class="btn btn-primary" type="submit">Cadastre-se</button>
       </div>
-      <div class="col-md-7 text-center" id="cadastro-col-right">
-        <div class="col-md-12 text-right">
-          <span>Sou cadastrado. <a href="#">Entrar</a></span>
+      <div class="col-md-6 text-center" id="col-right">
+        <img src="assets/img/farmacia_home-header.png" alt="" class="hidden-mobile">
+        <img src="assets/img/farmacia-home-header-m.png" alt="" class="visible-mobile">
+      </div>
+    </div>
+
+    <div class="row text-center" id="div-header">
+      <div class="col-md-12">
+        <p>Faça parte do 99Fórmulas</p>
+        <img src="assets/img/seta-down.png" alt="">
+      </div>
+    </div>
+
+    <div class="row text-center d-none d-sm-flex features">
+      <div class="col-md-4">
+        <img src="assets/img/magnet.png" alt="" class="img-fluid">
+        <p>Fazemos todo o trabalho de capitação de clientes para a farmácia cotar</p>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/img/money-bag.png" alt="" class="img-fluid">
+        <p>Encontramos os clientes, quem vende é a sua farmácia</p>
+      </div>
+      <div class="col-md-4">
+        <img src="assets/img/dart-board.png" alt="" class="img-fluid">
+        <p>Gerencie as cotações também pelo celular. Prático e rápido</p>
+      </div>
+    </div>
+    
+    <!-- CAROUSEL MOBILE -->
+    <div class="row text-center d-block d-sm-none features">
+
+      <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <div class="col-md-4">
+              <img src="assets/img/magnet.png" alt="" class="img-fluid">
+              <p>Fazemos todo o trabalho de capitação de clientes para a farmácia cotar</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="col-md-4">
+              <img src="assets/img/money-bag.png" alt="" class="img-fluid">
+              <p>Encontramos os clientes, quem vende é a sua farmácia</p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="col-md-4">
+              <img src="assets/img/dart-board.png" alt="" class="img-fluid">
+              <p>Gerencie as cotações também pelo celular. Prático e rápido</p>
+            </div>
+          </div>
+
         </div>
-        <form class="col-md-12 text-left">
-          <h2 class="text-center">Cadastre-se</h2>
-          <a href="#">
-            <img src="assets/img/btn-facebook.png" alt="" class="img-fluid">
-          </a>
-          <div class="form-span text-center">
-            <img src="assets/img/line-form.png" alt="" class="img-fluid">
-            <span>ou utilizando o email</span>
-            <img src="assets/img/line-form.png" alt="" class="img-fluid">
-          </div>
-          <div class="form-group">
-            <label for="nome">Nome</label>
-            <input type="text" class="form-control" id="nome" required>
-          </div>
-          <div class="form-group">
-            <label for="email">Email</label>
-            <input type="email" class="form-control" id="email" required>
-          </div>
-          <div class="form-row">
-            <div class="col-lg-6">
-              <div class="form-group">
-                <label for="cpf">CPF</label>
-                <input type="text" class="form-control" id="cpf" required>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="form-group">
-                <label for="celular">Celular</label>
-                <input type="text" class="form-control" id="celular" required>
-              </div>
-            </div>
-          </div>
-          <div class="form-row">
-            <div class="col-lg-6">
-              <div class="form-group">
-                <label for="senha">Senha</label>
-                <input type="password" class="form-control" id="senha" required>
-              </div>
-            </div>
-            <div class="col-lg-6">
-              <div class="form-group">
-                <label for="confirma-senha">Confirme a senha</label>
-                <input type="password" class="form-control" id="confirma-senha" required>
-              </div>
-            </div>
-          </div>
-          <div class="form-row checks-form">
-            <div class="form-check">
-              <label class="custom-checkbox" for="news">
-                <span class="form-check-label">Quero receber novidades, notícias e informes do 99 Fórmulas</span>
-                <input type="checkbox" value="" id="news">
-                <span class="checkmark"></span>
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="custom-checkbox" for="sms">
-                <span class="form-check-label">Receber SMS quando minha receita receber cotações</span>
-                <input type="checkbox" value="" id="sms">
-                <span class="checkmark"></span>
-              </label>
-            </div>
-            <div class="form-check">
-              <label class="custom-checkbox" for="termos">
-                <span class="form-check-label">Estou de acordo com o termo de uso e política de privacidade do 99 Fórmulas.</span>
-                <input type="checkbox" value="" id="termos" checked>
-                <span class="checkmark"></span>
-              </label>
-            </div>
-          </div>
-          <div class="form-row action">
-            <button class="btn btn-primary" type="submit">Cadastrar</button>
-          </div>
-        </form>
+      </div>
+
+    </div>
+
+    <div class="row text-center" id="div-header-2">
+      <div class="col-md-12">
+        <p>
+          Venda seus produtos em nosso site e alcance milhares de clientes. <br>
+          Entenda como funciona.
+        </p>
+      </div>
+    </div>
+
+    <div class="row" id="passos">
+      <div class="col-md-12">
+        <div class="col-md-4 passos-number">
+          <img src="assets/img/passo-1.png" alt="">
+        </div>
+        <div class="col-md-8">
+          <h2>Faça o cadastro</h2>
+          <p>
+            <a href="cadastro-farmacia.html" target="_blank">Cadastre-se.</a> Em seguida os dados serão analisados
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-4 passos-number">
+          <img src="assets/img/passo-2.png" alt="">
+        </div>
+        <div class="col-md-8">
+          <h2>Receba notificações</h2>
+          <p>
+            Após analise e com o cadastro liberado,<br> comece a receber notificações de novas <br> receitas para cotar.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-4 passos-number">
+          <img src="assets/img/passo-3.png" alt="">
+        </div>
+        <div class="col-md-8">
+          <h2>Faça cotações</h2>
+          <p>
+            Visualize a cotação e decida quando e em <br>qual vai participar. Liberdade para gerenciar <br>melhor suas demandas.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-12">
+        <div class="col-md-4 passos-number">
+          <img src="assets/img/passo-4.png" alt="">
+        </div>
+        <div class="col-md-8">
+          <h2>Finalize e envie</h2>
+          <p>
+            Dê os valores de cada formula e finalize a cotação.
+          </p>
+        </div>
       </div>
     </div>
   </main>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+  <footer>
+    <div class="col-md-6">
+      Junte-se a 99Fórmulas
+    </div>
+    <div class="col-md-6 text-right">
+      <button class="btn" type="submit">Cadastre sua farmácia</button>
+    </div>
+  </footer>
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
-  <script>
-    $(document).ready(function () { 
-      var $seuCampoCpf = $("#cpf");
-      var $seuCampoCelular = $("#celular");
-      $seuCampoCpf.mask('000.000.000-00');
-      $seuCampoCelular.mask('(00)00000-0000');
-    });
-  </script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
 </body>
 </html>

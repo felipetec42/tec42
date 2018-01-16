@@ -1,0 +1,164 @@
+#cadastro-col-left{
+  background-color: #00CBE5;
+  min-height: 100vh;
+  color: #fff;
+  text-align: center;
+  padding-top: 80px;
+  background: url(../img/foto-cadastro.png) no-repeat center bottom  #00CBE5; 
+  background-size: contain;
+}
+#cadastro-col-left p{
+  text-align: left;
+  padding: 0 11%;
+  font-size: 18px;
+  padding-top: 5%;
+  line-height: 1.2;
+}
+#cadastro-col-left .txt-1{
+  font-size: 28px;
+  font-weight: 500;
+}
+#cadastro-col-left img{
+  position: absolute;
+  padding-top: 10px;
+  bottom: 0;
+  left: 5px;
+}
+#cadastro-col-right{
+  color: #829DAB;
+  padding-top: 10px;
+}
+#cadastro-col-right .cadastrado{
+  font-size: 18px;
+  color: #707070;
+}
+#cadastro-col-right .cadastrado a{
+  color: #2C9DEB;
+}
+
+#cadastro-col-right h2{
+  font-weight: 500;
+}
+#cadastro-col-right img{
+  margin: 10px 0;
+}
+#cadastro-col-right form{
+  width: 480px;
+  margin: 0 auto;
+  padding-top: 10px;
+  padding-bottom: 40px;
+}
+.form-group{
+  margin-bottom: 20px;
+}
+.form-span{
+  color: #BBBBBB;
+  font-size: 16px;
+}
+form hr{
+  width: 30%;
+  display: inline-block;
+  margin-bottom: 7px;
+  margin-top: 11px;
+}
+#cadastro-col-right form label{
+  margin-bottom: 0;
+  font-size: 18px;
+}
+#cadastro-col-right form .form-control{
+  height: 45px;
+  border-color:#6E8FA0;
+}
+#cadastro-col-right form .form-check-label{
+  padding-left: 20px;
+  font-size: 13px;
+  color: #707070;
+}
+#cadastro-col-right form .custom-checkbox{
+  margin-left: 5px;
+  margin-top: -15px;
+  display: block;
+  position: relative;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 8px;
+  left: 0;
+  height: 15px;
+  width: 15px;
+  border: 2px solid #2196F3;
+  background-color: #fff;
+}
+/* When the checkbox is checked, add a blue background */
+.custom-checkbox input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.custom-checkbox input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.custom-checkbox .checkmark:after {
+  left: 3px;
+  top: 0px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+#cadastro-col-right form .checks-form{
+  width: 475px;
+  padding-top: 10px;
+}
+#cadastro-col-right form button{
+  width: 100%;
+  border-radius: 50px;
+  margin-top: 20px;
+  background-color: #2C9DEB;
+  border:none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;  
+  height: 45px;
+}
+@media (max-width: 767px){
+  .hidden-mobile {
+    display: none;
+  }
+  #cadastro-col-right form{
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    width: 100%;
+  }
+  #cadastro-col-right form .checks-form{
+    width: 100%;
+  }
+  form hr{
+    width: 25%;
+  }
+}
