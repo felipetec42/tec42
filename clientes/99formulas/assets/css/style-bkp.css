@@ -1,0 +1,1140 @@
+.mensagem-farmacia,
+.mensagem-farmacia.ativa {
+	width:25px;
+	height:21px;
+	display:inline-block;
+	vertical-align:middle
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.barra-navegacao li a svg 
+.cls-1,
+.topo-marca-menu 
+.mantem-menu-principal 
+.usuario-topo svg 
+.cls-1 {
+	ill:#5BCAE3
+	}
+.mensagem-farmacia {
+	background-image:url(../img/mensagem-farmacia-vazio.svg)
+	}
+.mensagem-farmacia
+.ativa {
+	background-image:url(../img/mensagem-farmacia.gif);
+	position:relative
+	}
+.mensagem-farmacia
+.ativa 
+.numero-mensagens {
+	font-size:12px;
+	font-weight:500;
+	olor:#fff;
+	text-align:center;
+	width:20px;
+	height:20px;
+	ine-height:20px;
+	display:inline-block;
+	position:absolute;
+	background-color:#FF0404;
+	border-radius:10px;
+	top:-50%;
+	left:60%
+	}
+.topo-marca-menu,body {
+	background-color:#fff
+	}
+body {
+	font-family:Roboto,sans-serif;
+	color:#788E9E
+	}
+p {
+	margin:0
+	}
+.topo-marca-menu {
+	box-shadow:0 3px 6px rgba(0,0,0,.1);
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+	padding:5px 12px
+	}
+.topo-marca-menu 
+.container {
+	display:flex;
+	justify-content:space-between;
+	align-items:center
+	}
+.topo-marca-menu 
+.logo-minha-pilula {
+	width:180px
+	}
+.topo-marca-menu 
+.sandwich-menu-mobile {
+	height:20px
+	}
+@media (min-width:1024px) {
+	.topo-marca-menu 
+	.sandwich-menu-mobile {
+		display:none
+		}
+	}
+.topo-marca-menu 
+.mantem-menu-principal {
+	display:flex;
+	flex-grow:1;
+	align-items:center
+	}
+@media (max-width:1023px) {
+	.topo-marca-menu {
+		position:fixed
+		}
+	.topo-marca-menu 
+	.mantem-menu-principal {
+		display:none
+		}
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.barra-navegacao {
+	display:flex;
+	justify-content:center;
+	flex-grow:2;
+	list-style:none;
+	padding:0;margin:0
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.barra-navegacao li a {
+	font-size:18px;
+	color:#5BCAE3;
+	text-transform:capitalize;
+	position:relative;
+	margin-left:25px;
+	margin-right:25px
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.barra-navegacao li a:hover {
+	text-decoration:none
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.barra-navegacao li a 
+.sinalizacao-notificacoes {
+	font-size:12px;
+	font-weight:500;
+	color:#fff;
+	text-align:center;
+	width:20px;
+	height:20px;
+	line-height:20px;
+	display:inline-block;
+	position:absolute;
+	background-color:#FF0404;
+	border-radius:10px;
+	top:-50%;
+	left:60%;
+	left:8px
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.barra-navegacao li a svg {
+	vertical-align:middle;
+	margin-right:6px
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.usuario-topo {
+	display:flex
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.usuario-topo svg {
+	vertical-align:middle;
+	margin-right:4px
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.usuario-infos {
+	text-align:right;
+	margin-right:10px
+	}
+.card-manipulado 
+.infos-manipulado 
+.input-radio-manipulado,.cotacoes 
+.cabecalho-cotacoes {
+	text-align:center
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.usuario-infos a {
+	color:#5BCAE3;
+	transform:translateY(-5px);
+	display:inline-block;
+	font-size:13px
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.usuario-topo-nome {
+	font-weight:500;
+	font-size:18px
+	}
+.topo-marca-menu 
+.mantem-menu-principal 
+.usuario-topo-img {
+	border-radius:100%;
+	border:3px solid #5BCAE3;
+	overflow:hidden
+	}
+@media (min-width:1199px) {
+	.mantem-menu-mobile {
+		display:none
+		}
+	}
+.mantem-menu-mobile 
+.menu-mobile {
+	position:fixed;
+	width:80%;
+	height:200%;
+	background-color:#fff;
+	right:0;
+	top:0;
+	box-shadow:-3px 0 20px rgba(102,102,102,.3);
+	padding:0 20px;
+	z-index:3;
+	transform:translateX(150%);
+	transition:transform ease-in .3s
+	}
+.mantem-menu-mobile 
+.menu-mobile.ativo {
+	transform:translateX(0);
+	opacity:1;
+	-webkit-transition:transform .4s
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.fechar-menu-mobile {
+	margin-top:13px
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.fechar-menu-mobile 
+.cls-1 {
+	fill:none;
+	stroke:#95989a;
+	stroke-width:3px
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.usuario-menu 
+.editar-perfil-usuario svg .cls-1,.mantem-menu-mobile .menu-mobile ul svg .cls-1 {
+	fill:#5BCAE3
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.usuario-menu {
+	background-color:#f3f3f3;
+	margin-left:-20px;
+	margin-right:-20px;
+	padding-top:30px;
+	padding-bottom:45px;
+	padding-left:20px
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.usuario-menu 
+.usuario-nome {
+	font-size:22px;
+	font-weight:500
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.usuario-menu 
+.editar-perfil-usuario {
+	text-decoration:underline;
+	color:#5BCAE3
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.usuario-menu 
+.editar-perfil-usuario 
+.engranagem-usuario {
+	display:inline-block;
+	vertical-align:middle
+	}
+.mantem-menu-mobile 
+.menu-mobile 
+.usuario-img-menu {
+	float:left;
+	margin-right:3px;
+	border:2px solid #788E9E;
+	border-radius:100%
+	}
+.mantem-menu-mobile 
+.menu-mobile ul {
+	list-style:none;
+	padding:0
+	}
+.mantem-menu-mobile 
+.menu-mobile ul a {
+	font-size:24px;
+	font-weight:500;
+	margin:10px 0 10px -20px;
+	display:inline-block;
+	color:#5BCAE3;
+	padding-left:30px;
+	border-left:8px solid #fff
+	}
+.mantem-menu-mobile 
+.menu-mobile ul a.ativo {
+	border-left:8px solid #5BCAE
+	}
+.mantem-menu-mobile 
+.sombra-menu {
+	position:fixed;
+	left:0;
+	top:0;
+	bottom:0;
+	right:0;
+	background-color:rgba(51,51,51,.6);
+	opacity:0;
+	transform:translateX(-100%);
+	transition:all ease-out .2s;
+	z-index:2
+	}
+.mantem-menu-mobile 
+.sombra-menu.ativo {
+	opacity:2;
+	transform:translateX(0);
+	transition:all ease-in .4s
+	}
+.card-receita {
+	width:300px;
+	height:297px;
+	background-color:#f5f5f5;
+	border:1px solid #E6E6E6;
+	box-shadow:0 4px 10px rgba(0,0,0,.1);
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	color:#788E9E
+	}
+.card-manipulado {
+	width:130px;
+	height:140px;
+	margin:12px 5px;
+	border:1px solid #BBBBBA;
+	box-shadow:0 0 9px rgba(0,0,0,.3)
+	}
+@media (min-width:480px) and (max-width:768px) {
+	.card-manipulado {
+		margin:12px 15px
+		}
+	}
+.card-manipulado
+.remedio-selecionado {
+	box-shadow:none;
+	transition:all .3s
+	}
+.card-manipulado
+.remedio-selecionado 
+.infos-manipulado {
+	background-color:#5BCAE3;
+	transition:all .4s
+	}
+.card-manipulado
+.remedio-selecionado 
+.texto-card-grande:after {
+	background-color:#5BCAE3!important;
+	transition:all .4s
+	}
+.card-manipulado 
+.infos-manipulado {
+	position:relative;
+	background-color:#f3f3f3;
+	padding:4px 8px 8px;
+	cursor:pointer
+	}
+.card-manipulado 
+.infos-manipulado 
+.input-radio-manipulado input {
+	display:none
+	}
+.card-manipulado 
+.infos-manipulado 
+.input-radio-manipulado input:checked+.input-mp:before {
+	content:"";
+	width:10px;
+	eight:10px;
+	background-color:#797979;
+	position:absolute;
+	top:50%;
+	left:50%;
+	border-radius:100%;
+	transform:translate(-5px,-5px)
+	}
+.card-manipulado 
+.infos-manipulado 
+.input-radio-manipulado 
+.input-mp {
+	display:inline-block;
+	width:16px;
+	height:16px;
+	background-color:#fff;
+	border:2px solid #95989A;
+	border-radius:8px;
+	position:relative
+	}
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-farmacia {
+	width:112px;
+	color:#000;
+	font-size:12px;
+	font-weight:500;
+	height:29px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	position:relative;
+	line-height:14px;
+	margin-top:4px;
+	margin-bottom:0
+	}
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-farmacia
+.texto-card-grande 
+.visualizar-mais {
+	position:absolute;
+	width:14px;
+	height:12px;
+	color:#fff;
+	text-align:center;
+	line-height:12px;
+	background-color:#788E9E;
+	right:0;
+	bottom:0;
+	font-size:14px;
+	font-weight:400;
+	z-index:2;
+	padding-left:1px;
+	border-radius:2px
+	}
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-farmacia
+.texto-card-grande:after {
+	content:"\02026";
+	position:absolute;
+	bottom:0;
+	right:0;
+	width:40px;
+	height:10px;
+	line-height:5px;
+	background-color:#F3F3F3;
+	z-index:1;
+	padding-left:4px;
+	padding-top:4px;
+	transform:translateY(-4px)
+	}
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-farmacia p {
+	display:inline-block
+	}
+.card-manipulado 
+.infos-manipulado 
+.unidade-medida-manipulado {
+	font-size:11px;
+	color:#000;
+	display:inline-block;
+	transform:translateY(4px)
+	}
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-completo {
+	position:absolute;
+	top:10px;
+	z-index:10;
+	font-size:13px;
+	background-color:rgba(120,142,158,.9);
+	left:50%;
+	color:#fff;
+	transform:translateX(-50%);
+	line-height:initial;
+	padding:10px 20px;
+	max-width:230px;
+	border-radius:3px
+	}
+.card-manipulado 
+.preco-manipulado-farmacia {
+	background-color:#fff;
+	padding:0 8px;
+	color:#94BA5F
+	}
+.card-manipulado 
+.preco-manipulado-farmacia p {
+	margin:0;
+	font-size:30px;
+	font-weight:700
+	}
+.card-manipulado 
+.preco-manipulado-farmacia 
+.centavos-farmacia,.card-manipulado 
+.preco-manipulado-farmacia 
+.moeda-farmacia {
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:500
+	}
+.cotacoes {
+	padding-top:70px
+	}
+@media (min-width:1024px) {
+	.cotacoes {
+		padding-top:30px
+		}
+	}
+@media (min-width:767px) {
+	.cotacoes .cabecalho-cotacoes {
+		text-align:left
+		}
+	}
+.cotacoes 
+.cabecalho-cotacoes 
+.nome-receita-cotacoes {
+	font-size:22px;
+	line-height:27px;
+	font-weight:500;
+	text-transform:capitalize;margin:0
+	}
+.cotacoes 
+.cabecalho-cotacoes 
+.data-solicitacao-cotacao {
+	font-size:12px;
+	color:#ccc
+	}
+.cotacoes 
+.cabecalho-cotacoes 
+.status-cotacao-interna {
+	font-size:16px;
+	text-transform:uppercase;
+	margin-top:12px;
+	margin-bottom:10px;
+	font-weight:700
+	}
+.cotacoes 
+.cabecalho-cotacoes 
+.status-cotacao-interna.finalizada {
+	color:#5BCAE3
+	}
+.cotacoes 
+.cabecalho-cotacoes 
+.ver-receitas {
+	width:200px;
+	height:23px;
+	border:1px solid #5BCAE3;
+	border-radius:13px;
+	color:#5BCAE3;
+	font-size:14px;
+	text-align:center;cursor:pointer
+	}
+@media (max-width:767px) {
+	.cotacoes .cabecalho-cotacoes .ver-receitas {
+		margin:auto
+		}
+	}
+.cotacoes .cabecalho-cotacoes .ver-receitas svg {
+	display:inline-block;
+	height:16px;
+	vertical-align:middle;
+	margin-right:15px
+	}
+.cotacoes .cabecalho-cotacoes .ver-receitas svg .cls-1 {
+	fill:#5bcae3
+	}
+.cotacoes .cabecalho-cotacoes .ver-receitas p {
+	display:inline-block
+	}
+.cotacoes .cotacoes-farmacia {
+	margin-top:20px
+	}
+.cotacoes .cotacoes-farmacia .titulo-cotacoes {
+	font-size:18px;
+	text-transform:uppercase;
+	color:#7A90A0;
+	font-weight:500;
+	border-bottom:1px solid #CCC;
+	position:relative;
+	padding-bottom:5px
+	}
+.cotacoes .cotacoes-farmacia .titulo-cotacoes:after,.cotacoes 
+.cotacoes-farmacia .titulo-cotacoes:before {
+	content:"";
+	width:9px;
+	height:9px;
+	position:absolute;bottom:0;
+	transform:translateX(0) translateY(5px) rotate(136deg);left:50%
+	}
+.cotacoes .cotacoes-farmacia .titulo-cotacoes:before {
+	background-color:#fff;
+	z-index:0;
+	transform:translateX(0) translateY(3px) rotate(136deg)
+	}
+.cotacoes .cotacoes-farmacia .titulo-cotacoes:after {
+	background-color:#ccc;
+	z-index:-1
+	}
+.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia {
+	display:flex;
+	border:3px solid #F8F8F8;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	padding-top:5px;
+	flex-direction:row
+	}
+@media (max-width:1023px) {
+	.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia {
+		flex-direction:column
+		}
+	.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p:before {
+		border-left:6px solid transparent;
+		border-right:6px solid transparent;
+		border-bottom:6px solid #788E9E;
+		top:-5px;
+		left:10px
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia .mensagem-farmacia {
+	margin:0 15px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia .contem-infos-farmacia {
+	flex-grow:1;
+	display:flex
+	}
+.cotacoes .cotacoes-farmacia .cotacao-farmacia-manipulado {
+	margin-top:40px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-nome-farmacia {
+	font-size:20px;
+	color:#000;
+	font-weight:700;
+	flex-grow:1;
+	margin:0
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia {
+	display:flex;
+	flex-grow:1
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia .contem-avalicao {
+	display:flex
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia .estrela-avaliacao {
+	margin-left:-5px;
+	fill:#ccc
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia .estrela-avaliacao-cheia {
+	fill:#ffda44
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia small {
+	display:block;
+	font-size:11px;
+	line-height:13px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia {
+	text-align:right;
+	flex-grow:1
+	}
+.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p {
+	background-color:#788E9E;
+	position:relative;
+	color:#fff;
+	font-size:19px
+	}
+@media (max-width:768px) {
+	.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia {
+		margin-top:5px
+		}
+	.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p {
+		border-radius:5px
+		}
+	}
+@media (min-width:769px) {
+	.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p {
+		border-top-right-radius:5px;
+		border-bottom-right-radius:5px
+		}
+	}
+@media (min-width:991px) {
+	.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p {
+		display:inline-block;
+		padding:0 6px
+		}
+	.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p:before {
+		border-top:6px solid transparent;
+		border-right:6px solid #788E9E;
+		border-left:6px solid transparent;
+		border-bottom:6px solid transparent;
+		top:50%;right:100%;
+		transform:translateY(-6px)
+		}
+	}
+@media (max-width:991px) {
+	.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p {
+		text-align:center;
+		display:block
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-observacao-farmacia p:before {
+	content:"";
+	display:inline-block;
+	vertical-align:middle;
+	width:0;
+	height:0;
+	position:absolute
+	}
+.cotacoes .cotacoes-farmacia .topo-fixo-farmacia {
+	top:-100%;
+	left:0;
+	position:fixed;
+	right:0;
+	z-index:100
+	}
+.cotacoes .cotacoes-farmacia .topo-fixo-farmacia .cotacao-infos-farmacia {
+	margin:0;
+	border-radius:0;
+	background:#fff;
+	box-shadow:0 5px 5px rgba(0,0,0,.2);
+	display:flex;
+	align-items:center
+	}
+.cotacoes .cotacoes-farmacia .topo-fixo-farmacia .cotacao-infos-farmacia .cotacao-nome-farmacia {
+	flex-grow:20
+	}
+.cotacoes .cotacoes-farmacia .topo-fixo-farmacia .cotacao-infos-farmacia .mensagem-farmacia {
+	flex-grow:1;
+	background-repeat:no-repeat;
+	margin:0 15px
+	}
+.cotacoes .cotacoes-farmacia .topo-fixo-farmacia .cotacao-infos-farmacia .cotacao-avaliacao-farmacia {
+	flex-grow:4
+	}
+.cotacoes .cotacoes-farmacia .topo-fixo-farmacia.mostra-topo-fixo-farmacia {
+	top:52px
+	}
+.cotacoes .cotacoes-farmacia .fixo-valores-farmacia {
+	position:fixed;
+	bottom:0;
+	left:0;
+	right:0;
+	background-color:#fff;
+	z-index:5;
+	box-shadow:0 -5px 5px rgba(0,0,0,.1);
+	transform:translateY(100%);transition:all ease-in .3s
+	}
+@media (min-width:1024px) {
+	.cotacoes .cotacoes-farmacia .fixo-valores-farmacia {
+		display:none
+		}
+	}
+.cotacoes .cotacoes-farmacia .fixo-valores-farmacia a {
+	background-color:#94BA5F;
+	display:block;
+	height:50px;
+	text-align:center;
+	line-height:50px;
+	font-size:27px;
+	text-transform:capitalize;color:#fff
+	}
+.cotacoes .cotacoes-farmacia .fixo-valores-farmacia a:hover {
+	text-decoration:none
+	}
+.cotacoes .cotacoes-farmacia .fixo-farmacia-selecionada {
+	transform:translateY(0);
+	transition:all ease-out .2s
+	}
+.cotacoes .cotacoes-farmacia .fixo-info-famarcia {
+	display:flex;
+	align-items:center;
+	padding:5px 15px
+	}
+.cotacoes .cotacoes-farmacia .fixo-info-famarcia .cotacao-avaliacao-farmacia {
+	display:flex
+	}
+.cotacoes .cotacoes-farmacia .fixo-info-famarcia .cotacao-avaliacao-farmacia svg {
+	margin-left:-1px
+	}
+.cotacoes .cotacoes-farmacia .fixo-farmacia-selecionada-nome {
+	color:#090909;
+	font-size:18px;
+	font-weight:700;
+	text-transform:capitalize;flex-grow:1
+	}
+.cotacoes .cotacoes-farmacia .fixo-farmacia-selecionada-nome p {
+	line-height:22px
+	}
+.cotacoes .cotacoes-farmacia .fixo-farmacia-selecionada-nome .mantem-avaliacao {
+	display:flex;
+	align-items:center
+	}
+.cotacoes .cotacoes-farmacia .fixo-farmacia-selecionada-nome .mantem-avaliacao .cotacao-avaliacao-farmacia {
+	width:auto
+	}
+.cotacoes .cotacoes-farmacia .fixo-farmacia-selecionada-nome .mantem-avaliacao .cotacao-avalicao-farmacia-contador {
+	font-size:12px
+	}
+.cotacoes .cotacoes-farmacia .fixo-produtos-selecionado-valor {
+	flex-grow:1;
+	text-align:center;
+	color:#5BCAE3;
+	font-size:22px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete {
+	height:30px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+	display:flex;
+	align-items:center
+	}
+@media (max-width:425px) {
+	.cotacoes .cotacoes-farmacia .cotacao-condicao-frete {
+		justify-content:space-evenly
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .contem-frete-icon {
+	margin-right:4px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .prazo-entrega {
+	width:55px;
+	line-height:13px;
+	font-size:13px;
+	margin-right:14px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .dias-entrega {
+	font-size:16px;
+	margin-right:16px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .valor-frete {
+	font-size:20px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados {
+	background-color:#F8F8F8;
+	height:34px;
+	overflow:hidden
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados.visivel {
+	height:auto;
+	transition:all .4s
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados 
+.valores-compra-farmacia .formata-valores .texto div,.cotacoes .cotacoes-farmacia 
+.cotacao-manipulados .valores-compra-farmacia .formata-valores .valores div {
+	height:28px
+	}
+@media (min-width:1024px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .contem-manipulados {
+		padding-bottom:10px;
+		display:flex
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .contem-manipulados-card {
+	display:flex;
+	flex-wrap:wrap;
+	flex-grow:1;
+	max-width:700px
+	}
+@media (max-width:768px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .contem-manipulados-card {
+		justify-content:space-evenly
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .link-ver-mais-formulas {
+	display:block;
+	color:#5BCAE3;
+	font-size:16px;
+	margin-top:10px;
+	margin-bottom:25px
+	}
+@media (min-width:769px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .link-ver-mais-formulas {
+		display:none
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia {
+	flex-basis:400px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia {
+	text-align:left
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia .valor-farmacia-sem-desconto {
+	color:#ccc;
+	font-size:15px;
+	text-decoration:line-through
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia .porcentagem-desconto {
+	color:#01A630;
+	font-size:11px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia 
+.porcentagem-desconto,.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia 
+.desconto-farmacia .valor-farmacia-sem-desconto {
+	display:block
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores {
+	display:flex;
+	align-items:baseline
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores div {
+	flex:1
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores .texto {
+	text-align:right;
+	padding-right:30px;
+	font-size:15px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores .valores {
+	font-size:21px;
+	color:#788E9E
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores .valores .frete-farmacia-valor.gratis {
+	font-weight:700
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total {
+	color:#5BCAE3;
+	line-height:57px
+	}
+@media (max-width:1023px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total {
+		background-color:#fff
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total .texto {
+	font-size:19px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total .valor-total-farmacia {
+	font-size:22px;
+	font-weight:700
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar {
+	display:inline-block;
+	min-width:208px;
+	line-height:45px;
+	height:45px;
+	color:#fff;
+	font-size:27px;
+	border-radius:2px;
+	background-color:#CCC;
+	text-transform:capitalize
+	}
+@media (max-width:1023px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar {
+		display:none
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar.compra-disponivel {
+	background-color:#94BA5F
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar:hover {
+	text-decoration:none
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar svg {
+	vertical-align:middle;
+	margin-right:4px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar svg .cls-1 {
+	fill:#fff
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	align-items:center;
+	border:1px solid #94BA5F;
+	padding:6px;
+	background-color:#fff;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	margin-bottom:0
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia p {
+	display:inline-block;
+	font-size:15px;
+	font-weight:700;
+	color:#94BA5F
+	}
+@media (min-width:325px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia p {
+		margin:0 20px 0 0
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia .botao-slide-seleciona-todos {
+	position:relative;
+	display:inline-block;
+	width:54px;
+	height:32px;
+	margin:0
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia .botao-slide-seleciona-todos input {
+	display:none
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia .botao-slide-seleciona-todos input:checked+.slider {
+	background-color:#5BCAE3
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia .botao-slide-seleciona-todos input:focus+.slider {
+	box-shadow:0 0 1px #2196F3
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia 
+.botao-slide-seleciona-todos input:checked+.slider:before {
+	-webkit-transform:translateX(23px);
+	-ms-transform:translateX(23px);
+	transform:translateX(23px)
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia .slider {
+	position:absolute;
+	cursor:pointer;
+	border-radius:34px;
+	border:1px solid #C6C6C6;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	background-color:#DDD;
+	-webkit-transition:.4s;
+	transition:.4s
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .selecionar-todos-farmacia .slider:before {
+	position:absolute;
+	content:"";
+	height:30px;
+	width:30px;
+	left:0;
+	bottom:0;
+	border:1px solid #ECECEC;
+	background-color:#fff;
+	-webkit-transition:.4s;
+	transition:.4s;
+	border-radius:50%;
+	box-shadow:1px 1px 6px rgba(0,0,0,.2)
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao {
+	text-align:center
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo {
+	display:flex;
+	align-items:center;
+	border:1px solid #F8F8F8
+	}
+@media (max-width:767px) {
+	.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo {
+		flex-flow:column
+		}
+	.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .preview-qtd-valor {
+		width:100%
+		}
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .preview-qtd-valor {
+	display:flex;
+	flex-grow:3;
+	align-items:center
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .qtd-formulas {
+	font-size:12px;
+	color:#788E9E;
+	flex-grow:1
+	}
+@media (min-width:768px) {
+	.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .qtd-formulas {
+		font-size:19px
+		}
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .qtd-formulas strong {
+	font-size:14px
+	}
+@media (min-width:768px) {
+	.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .qtd-formulas strong {
+		font-size:22px
+		}
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-desconto {
+	flex-grow:1
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-desconto .preco-desconto {
+	font-size:15px;
+	line-height:15px;
+	color:#CCC;
+	text-decoration:line-through
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-desconto .porcentagem-desconto {
+	font-size:11px;
+	line-height:11px;
+	color:#01A630
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-total {
+	color:#5BCAE3;
+	font-size:21px;
+	font-weight:700;
+	flex-grow:1
+	}
+@media (min-width:768px) {
+	.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-total {
+		font-size:28px
+		}
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .ver-cotacao-completa {
+	font-size:16px;
+	text-transform:uppercase;
+	display:inline-block;color:#94BA5F;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	flex-grow:1;
+	cursor:pointer;
+	padding:4px 21px 3px
+	}
+.receita-visualizar {
+	background-color:#F3F3F3;
+	position:fixed;
+	width:100%;
+	height:100%;
+	z-index:999999;
+	top:0;
+	left:0;
+	display:none
+	}
+.receita-visualizar .fechar-imagem-receita {
+	border:0;
+	cursor:pointer;
+	z-index:99999;
+	text-align:right;
+	padding:10px 10px 5px
+	}
+.receita-visualizar .fechar-imagem-receita svg {
+	width:20px;
+	fill:none;
+	stroke:#95989a;
+	stroke-width:6px
+	}
+@media (min-width:769px) {
+	.receita-visualizar .fechar-imagem-receita {
+		position:fixed;
+		right:50px
+		}
+	.receita-visualizar .fechar-imagem-receita svg {
+		width:40px
+		}
+	}
+.receita-visualizar .owl-item {
+	text-align:center
+	}
+.receita-visualizar .owl-item img {
+	display:inline-block;
+	max-width:1000px;
+	max-height:1000px;
+	width:auto
+	}
+.receita-visualizar .owl-dots {
+	position:absolute;
+	bottom:0;
+	width:100%;
+	background-color:rgba(255,255,255,.4)
+}

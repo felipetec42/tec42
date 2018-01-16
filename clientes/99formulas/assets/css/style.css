@@ -1,0 +1,433 @@
+
+.topo-marca-menu,body {
+	background-color:#fff
+	}
+body {
+	font-family:Roboto,sans-serif;
+	color:#788E9E
+	}
+p {
+	margin:0
+	}
+.topo-marca-menu {
+	box-shadow:0 3px 6px rgba(0,0,0,.1);
+	top:0;
+	left:0;
+	right:0;
+	z-index:1;
+	padding:5px 12px
+	}
+.topo-marca-menu 
+.container {
+	display:flex;
+	justify-content:space-between;
+	align-items:center
+	}
+.topo-marca-menu 
+.logo-minha-pilula {
+	width:180px
+	}
+
+.topo-marca-menu {
+	display:flex;
+	flex-grow:1;
+	align-items:center
+	}
+@media (max-width:1023px) {
+	.topo-marca-menu {
+		position:fixed
+		}
+	.topo-marca-menu {
+		display:none
+		}
+	}
+.topo-marca-menu {
+	display:flex;
+	justify-content:center;
+	flex-grow:2;
+	list-style:none;
+	padding:0;margin:0
+	}
+
+.topo-marca-menu 
+.card-manipulado 
+.infos-manipulado,.cotacoes 
+.cabecalho-cotacoes {
+	text-align:center
+	}
+
+  
+.ativo {
+	transform:translateX(0);
+	opacity:1;
+	-webkit-transition:transform .4s
+	}
+ 
+.card-receita {
+	width:300px;
+	height:297px;
+	background-color:#f5f5f5;
+	border:1px solid #E6E6E6;
+	box-shadow:0 4px 10px rgba(0,0,0,.1);
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+	color:#788E9E
+	}
+.card-manipulado {
+	width:150px;
+	height:150px;
+	margin:12px 5px;
+	border:1px solid #BBBBBA;
+	box-shadow:0 0 9px rgba(0,0,0,.3)
+	}
+@media (min-width:480px) and (max-width:768px) {
+	.card-manipulado {
+		margin:12px 15px
+		}
+	}
+
+
+.card-manipulado 
+.infos-manipulado {
+	position:relative;
+	background-color:#f3f3f3;
+	padding:4px 8px 8px;
+	cursor:pointer
+	}
+.card-manipulado 
+.infos-manipulado input {
+	display:none
+	}
+
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-farmacia {
+	width:135px;
+	color:#000;
+	font-size:12px;
+	font-weight:500;
+	height:80px;
+	overflow:hidden;
+	text-overflow:ellipsis;
+	position:relative;
+	line-height:15px;
+	margin-top:4px;
+	margin-bottom:0
+	}
+
+
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-farmacia p {
+	display:inline-block
+	}
+.card-manipulado 
+.infos-manipulado 
+.unidade-medida-manipulado {
+	font-size:11px;
+	color:#000;
+	display:inline-block;
+	transform:translateY(4px)
+	}
+.card-manipulado 
+.infos-manipulado 
+.nome-manipulado-completo {
+	position:absolute;
+	top:10px;
+	z-index:10;
+	font-size:13px;
+	background-color:rgba(120,142,158,.9);
+	left:50%;
+	color:#fff;
+	transform:translateX(-50%);
+	line-height:initial;
+	padding:10px 20px;
+	max-width:230px;
+	border-radius:3px
+	}
+.card-manipulado 
+.preco-manipulado-farmacia {
+	background-color:#fff;
+	padding:0 8px;
+	color:#94BA5F
+	}
+.card-manipulado 
+.preco-manipulado-farmacia p {
+	margin:0;
+	font-size:30px;
+	font-weight:700
+	}
+.card-manipulado 
+.preco-manipulado-farmacia 
+.centavos-farmacia,.card-manipulado 
+.preco-manipulado-farmacia 
+.moeda-farmacia {
+	font-size:12px;
+	text-transform:uppercase;
+	font-weight:500
+	}
+.cotacoes {
+	padding-top:70px
+	}
+@media (min-width:1024px) {
+	.cotacoes {
+		padding-top:30px
+		}
+	}
+@media (min-width:767px) {
+	.cotacoes .cabecalho-cotacoes {
+		text-align:left
+		}
+	}
+.cotacoes 
+.cabecalho-cotacoes 
+.nome-receita-cotacoes {
+	font-size:22px;
+	line-height:27px;
+	font-weight:500;
+	text-transform:capitalize;margin:0
+	}
+.cotacoes 
+.cabecalho-cotacoes 
+.data-solicitacao-cotacao {
+	font-size:12px;
+	color:#ccc
+	}
+.cotacoes 
+.cabecalho-cotacoes {
+	font-size:16px;
+	text-transform:uppercase;
+	margin-top:12px;
+	margin-bottom:10px;
+	font-weight:700
+	}
+.cotacoes 
+.cabecalho-cotacoes {
+	color:#5BCAE3
+	}
+
+
+.cotacoes .cotacoes-farmacia {
+	margin-top:20px
+	}
+.cotacoes .cotacoes-farmacia .titulo-cotacoes {
+	font-size:18px;
+	text-transform:uppercase;
+	color:#7A90A0;
+	font-weight:500;
+	border-bottom:1px solid #CCC;
+	position:relative;
+	padding-bottom:5px
+	}
+
+.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia {
+	display:flex;
+	border:3px solid #F8F8F8;
+	border-top-left-radius:12px;
+	border-top-right-radius:12px;
+	padding-top:5px;
+	flex-direction:row
+	}
+@media (max-width:1023px) {
+	.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia {
+		flex-direction:column
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia {
+	margin:0 15px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-infos-farmacia .contem-infos-farmacia {
+	flex-grow:1;
+	display:flex
+	}
+.cotacoes .cotacoes-farmacia .cotacao-farmacia-manipulado {
+	margin-top:40px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-nome-farmacia {
+	font-size:20px;
+	color:#000;
+	font-weight:700;
+	flex-grow:1;
+	margin:0
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia {
+	display:flex;
+	flex-grow:1
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia .contem-avalicao {
+	display:flex
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia .estrela-avaliacao {
+	margin-left:-5px;
+	fill:#ccc
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia .estrela-avaliacao-cheia {
+	fill:#ffda44
+	}
+.cotacoes .cotacoes-farmacia .cotacao-avaliacao-farmacia small {
+	display:block;
+	font-size:11px;
+	line-height:13px
+	}
+
+
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete {
+	height:30px;
+	margin-bottom:10px;
+	padding-top:10px;
+	padding-left:15px;
+	padding-right:15px;
+	display:flex;
+	align-items:center
+	}
+@media (max-width:425px) {
+	.cotacoes .cotacoes-farmacia .cotacao-condicao-frete {
+		justify-content:space-evenly
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .contem-frete-icon {
+	margin-right:4px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .prazo-entrega {
+	width:55px;
+	line-height:13px;
+	font-size:13px;
+	margin-right:14px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .dias-entrega {
+	font-size:16px;
+	margin-right:16px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-condicao-frete .valor-frete {
+	font-size:20px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados {
+	background-color:#F8F8F8;
+	height:34px;
+	overflow:hidden
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados.visivel {
+	height:auto;
+	transition:all .4s
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados 
+.valores-compra-farmacia .formata-valores .texto div,.cotacoes .cotacoes-farmacia 
+.cotacao-manipulados .valores-compra-farmacia .formata-valores .valores div {
+	height:28px
+	}
+@media (min-width:1024px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .contem-manipulados {
+		padding-bottom:10px;
+		display:flex
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .contem-manipulados-card {
+	display:flex;
+	flex-wrap:wrap;
+	max-width:700px
+	}
+
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia {
+	display: flex;
+	flex-direction: column;
+	flex-basis:350px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia {
+	text-align:left
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia .valor-farmacia-sem-desconto {
+	color:#ccc;
+	font-size:15px;
+	text-decoration:line-through
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia .porcentagem-desconto {
+	color:#01A630;
+	font-size:11px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .desconto-farmacia 
+.porcentagem-desconto,.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia 
+.desconto-farmacia .valor-farmacia-sem-desconto {
+	display:block
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores {
+	display:flex;
+	align-items:baseline
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores div {
+	flex:1
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores .texto {
+	text-align:right;
+	padding-right:30px;
+	font-size:15px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores .valores {
+	font-size:21px;
+	color:#788E9E
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores .valores .frete-farmacia-valor.gratis {
+	font-weight:700
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total {
+	color:#5BCAE3;
+	line-height:57px
+	}
+@media (max-width:1023px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total {
+		background-color:#fff
+		}
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total .texto {
+	font-size:19px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .formata-valores.valor-total .valor-total-farmacia {
+	font-size:22px;
+	font-weight:700
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar {
+	display:inline-block;
+	min-width:228px;
+	line-height:45px;
+	height:45px;
+	color:#fff;
+	font-size:27px;
+	border-radius:2px;
+	background-color:#CCC;
+	text-transform:capitalize
+	}
+@media (max-width:1023px) {
+	.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar {
+		display:none
+		}
+	}
+
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar svg {
+	vertical-align:middle;
+	margin-right:4px
+	}
+.cotacoes .cotacoes-farmacia .cotacao-manipulados .valores-compra-farmacia .btn-comprar svg .cls-1 {
+	fill:#fff
+	}
+
+
+.text-center {
+    text-align: center!important;
+}
+
+
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-desconto .porcentagem-desconto {
+	font-size:11px;
+	line-height:11px;
+	color:#01A630
+	}
+.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-total {
+	color:#5BCAE3;
+	font-size:21px;
+	font-weight:700;
+	flex-grow:1
+	}
+@media (min-width:768px) {
+	.cotacoes .cotacoes-farmacia .farmacia-resumo-cotacao .dados-resumo .valor-total {
+		font-size:28px
+		}
+	}

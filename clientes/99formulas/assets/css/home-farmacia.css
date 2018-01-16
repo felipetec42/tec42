@@ -1,0 +1,200 @@
+body{
+  overflow-x: hidden;
+  color: #829DAB;
+}
+.visible-mobile{
+  display: none;
+}
+#header{
+  min-height: 560px;
+  padding-top: 120px;
+  font-size: 22px;
+}
+#header #col-left{
+  padding-left: 10%;
+}
+#header #col-left h1{
+  font-size: 36px;
+  color: #00CBE5;
+  font-weight: 400;
+}
+#header #col-left .txt-1{
+  margin-top: 40px;
+  margin-bottom: 50px;
+  width: 70%;
+}
+#header #col-left button{
+  width: 80%;
+  border-radius: 50px;
+  margin-top: 5px;
+  background-color: #2C9DEB;
+  border:none;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 500;
+}
+#header #col-right img{
+  position: absolute;
+  bottom: 0;
+  right: -60px;
+}
+#div-header{
+  min-height: 100px;
+  background-color: #C6C6C6;
+  color: #fff;
+  font-size: 22px;
+  font-weight: 500;
+  padding-top: 20px;
+  margin-top: -5px;
+}
+#features{
+  padding: 8% 10%;
+  text-align: center;
+}
+#features p{
+  padding: 0 12%;
+  font-size: 22px;
+  margin-top: 20px;
+}
+#features div:first-child{
+  padding-top: 20px;
+}
+#features div:last-child{
+  margin-top: -20px;
+}
+#div-header-2{
+  background: #F1F1F1;
+  color: #C6C6C6;
+  padding: 40px 0;
+  font-size: 22px;
+}
+#passos{
+  margin: 80px 0;
+  padding: 0 22%;
+  font-size: 22px;
+}
+#passos div{
+  float: left;
+}
+.passos-number{
+  text-align: right;
+}
+#passos h2{
+  font-size: 48px;
+  color: #00CBE5;
+  font-weight: 400;
+  margin-top: 50px;
+}
+#passos .col-md-12{
+  margin-bottom: 90px;
+}
+
+footer{
+  height: 100px;
+  background-color: #00CBE5;
+  color: #fff;
+  padding: 2% 24%;
+  font-size: 28px;
+  text-align: left;
+}
+footer div{
+  float: left;
+}
+footer button.btn{
+  width: 310px;
+  border-radius: 90px;
+  background-color: #fff;
+  border:none;
+  color: #00CBE5;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: -5px;
+}
+
+@media (max-width: 767px){
+  #header{
+    padding-top: 60px;
+  }
+  #header #col-left{
+    padding: 0 10px;
+  }
+  #header #col-left h1{
+    font-size: 24px;
+    text-align: center;
+    padding: 0 8%;
+  }
+  #header #col-left p{
+    font-size: 16px;
+    text-align: center;
+    padding: 0 8%;
+    width: auto;
+    margin-top: 20px;
+    font-weight: 100;
+  }
+  #header #col-left .txt-1{
+    width: auto;
+    font-weight: 400;
+    margin-top: 20px;
+  }
+  #header #col-left button{
+    margin: 5px auto;
+    display: block;
+  }
+  #col-right {
+    margin-top: -30px;
+  }
+  #header #col-right img{
+    position: relative;
+    margin: 0 auto;
+    right: auto;
+  }
+  #div-header {
+    margin-top: -47px;
+    font-size: 16px;
+    height: 67px;
+    min-height: auto;
+    padding-top: 10px;
+  }
+  #div-header-2{
+    font-size: 18px;
+    height: 115px;
+    padding: 16px 0;
+  }
+  #passos{
+    margin: 40px 0 0 0;
+    padding: 0 10px;
+    font-size: 22px;
+  }
+  #passos div{
+    float: none;
+    text-align: center;
+  }
+  #passos h2{
+    font-size: 24px;
+    color: #00CBE5;
+    font-weight: bold;
+    margin-top: 5px;
+  }
+  #passos .col-md-12{
+    margin-bottom: 40px;
+  }
+  .passos-number{
+    text-align: center;
+  }
+  .hidden-mobile {
+    display: none;
+  }
+  .visible-mobile{
+    display: block;
+  }
+  footer{
+    height: 130px;
+    padding: 10px 5px;
+    text-align: center;
+  }
+  footer button.btn{
+    width: 100%;
+    margin: 0 auto;
+  }
+}

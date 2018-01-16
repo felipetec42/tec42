@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Minha Pilula – Faça a cotação do seu remédio manipulado em várias farmácias de manipulação</title>
+  <!-- css bootstrap-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+  <!-- Google Fonts - Roboto -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,400,500,700" rel="stylesheet">
+  <!-- css Minha Pilula-->
+  <link rel="stylesheet" href="assets\css\style-bkp.css">
+  <link rel="stylesheet" href="assets/css/cadastro-farmacia.css">
+</head>
+<body>
+
+  <main class="container-fluid">
+    <div class="row">
+      <div class="col-md-5 hidden-mobile" id="cadastro-col-left">
+        <h1>99 Fórmulas</h1>
+        <p>
+          <span class="txt-1">A oportunidade para trazer os clientes <br>certos e sua farmácia vender mais</span> <br><br>
+          Pronto para vender? Então vamos lá! É rapidinho.
+        </p>
+      </div>
+      <div class="col-md-7 text-center" id="cadastro-col-right">
+        <div class="row nav-cadastro">
+          <div class="col-md-4 text-center" id="title-dados-empresa">
+            <span class="active">Dados da empresa</span>
+            <img src="assets/img/seta-menu.png" alt="" class="hidden-mobile">
+          </div>
+          <div class="col-md-4 text-center" id="title-endereco-empresa">
+            <span class="hidden-mobile">Endereço da empresa</span>
+            <img src="assets/img/seta-menu.png" alt="" class="hidden-mobile">
+          </div>
+          <div class="col-md-4 text-center" id="title-dados-contato">
+            <span class="hidden-mobile">Dados do contato</span>
+          </div>
+        </div>
+        
+        <form class="col-md-12 text-left">
+          <div id="dados-empresa">
+            <div class="txt text-left">Preencha as três etapas com os dados da sua farmácia e envie para nós.</div>
+            <div class="form-group">
+              <label for="cnpj">CNPJ</label>
+              <input required type="text" class="form-control" id="cnpj">
+            </div>
+            <div class="form-group">
+              <label for="razao-social">Razão social</label>
+              <input required type="text" class="form-control" id="razao-social">
+            </div>
+            <div class="form-group">
+              <label for="nome-fantasia">Nome fantasia</label>
+              <input required type="text" class="form-control" id="nome-fantasia">
+            </div>
+
+            <div class="text-right">
+              <div class="form-group">
+                <div class="btn btn-continuar">Continuar</div>
+              </div>
+            </div>
+          </div>
+
+          <div id="endereco-empresa" style="display: none;">
+            <div class="form-group">
+              <label for="cep">CEP</label>
+              <input required type="text" class="form-control" id="cep">
+            </div>
+            <div class="form-group">
+              <label for="endereco">Endereço</label>
+              <input required type="text" class="form-control" id="endereco">
+            </div>
+            <div class="form-row">
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="numero">Número</label>
+                  <input required type="text" class="form-control" id="numero">
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="form-group">
+                  <label for="complemento">Complemento</label>
+                  <input type="text" class="form-control" id="complemento">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="bairro">Bairro</label>
+              <input required type="text" class="form-control" id="bairro">
+            </div>
+            <div class="form-group">
+              <label for="cidade">Cidade</label>
+              <input required type="text" class="form-control" id="cidade">
+            </div>
+            <div class="form-group">
+              <label for="estado">Estado</label>
+              <input required type="text" class="form-control" id="estado">
+            </div>
+            <div class="form-row">
+              <div class="col-lg-6 col-xs-6 text-left">
+                <div class="btn btn-voltar">Voltar</div>
+              </div>
+              <div class="col-lg-6 col-xs-6 text-right">
+                <div class="btn btn-continuar">Continuar</div>
+              </div>
+            </div>
+          </div>
+          
+          <div id="dados-contato" style="display: none;">
+            <div class="form-group">
+              <label for="nome">Nome completo</label>
+              <input required type="text" class="form-control" id="nome">
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input required type="email" class="form-control" id="email">
+            </div>
+            <div class="form-group">
+              <label for="telefone">Telefone</label>
+              <input required type="text" class="form-control" id="telefone">
+            </div>
+            <div class="form-row">
+              <div class="col-lg-6 col-xs-6 text-left">
+                <div class="btn btn-voltar">Voltar</div>
+              </div>
+              <div class="col-lg-6 col-xs-6 text-right">
+                <div class="btn btn-continuar">Finalizar</div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="col-md-12" id="cadastro-final" style="display: none;">
+            <h3>Suas informações foram enviadas com sucesso :)</h3>
+            <p class="text text-center">
+              Agradecemos seu interesse em fazer parte do 99Fórmulas. Já 
+              recebemos sua solicitação de cadastro para fazer cotação. Entraremos 
+              em contato assim que finalizamos o processo. Obrigado.
+            </p>
+            <div class="form-group text-center">
+              <label for="nos-conheceu">Gostaríamos de saber como nos conheceu</label>
+              <select class="form-control" id="nos-conheceu">
+                <option>Escolha uma opção</option>
+                <option>2</option>
+                <option>3</option>
+              </select>
+            </div>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+  </main>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.0/jquery.mask.js"></script>
+  <script src="assets/js/cadastro-farmacia.js"></script>
+</body>
+</html>
